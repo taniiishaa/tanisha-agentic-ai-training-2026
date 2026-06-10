@@ -8,3 +8,8 @@ This repository documents my learning journey during the Codenoids 2026 Industri
 - Set up GitHub repository for training progress tracking
 
 ---
+### Day 2
+- Solved LeetCode #3: Longest Substring Without Repeating Characters
+- Solved LeetCode #4: Roman to Integer
+
+---
