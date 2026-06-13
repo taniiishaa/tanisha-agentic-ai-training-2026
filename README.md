@@ -13,5 +13,8 @@ This repository documents my learning journey during the Codenoids 2026 Industri
 
 ### Day 3
 - Solved LeetCode #5: Longest Palindromic Substring
-  
+
+### Day 4
+- Solved LeetCode #6: Container With Most Water
+- Solved LeetCode #7: Longest Common Prefix
 ---
