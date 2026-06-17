@@ -52,6 +52,21 @@ Welcome to my Industrial Training repository for the Codenoids 2026 Agentic AI P
 - Success Threshold Validation
 - Async Task Monitoring
 
+### Day 6
+
+#### Topics Covered
+- Breadth-First Search (BFS)
+- Queue Data Structure
+- Grid Traversal
+- Stack Data Structure
+- Parentheses Validation Logic
+
+#### Work Done
+- Solved LeetCode #20: Valid Parentheses
+- Solved LeetCode #994: Rotting Oranges
+- Implemented BFS-based Solution
+- Implemented Stack-based Solution
+- Practiced Async and Non-Async Implementations
 
 ## Repository Structure
 
@@ -97,7 +112,11 @@ Codenoids-2026-Agentic-AI/
 │   ├── task_case_5.py
 │   └── day5.md
 │
+├── Day 6/
+│   ├── ValidParentheses.py
+│   └── RottingOranges.py
 └── README.md
+
 ```
 ---
 
