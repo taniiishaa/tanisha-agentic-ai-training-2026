@@ -68,9 +68,9 @@ Welcome to my Industrial Training repository for the Codenoids 2026 Agentic AI P
 - Implemented Stack-based Solution
 - Practiced Async and Non-Async Implementations
 
-# Day 7
+### Day 7
 
-## Topics Covered
+#### Topics Covered
 
 - Python 2 vs Python 3
 - Python Virtual Environments (venv)
@@ -79,7 +79,7 @@ Welcome to my Industrial Training repository for the Codenoids 2026 Agentic AI P
 - LangChain Framework
 - Ollama Local LLMs
   
-## Repository Structure
+### Repository Structure
 
 ```text
 Codenoids-2026-Agentic-AI/
