@@ -68,6 +68,17 @@ Welcome to my Industrial Training repository for the Codenoids 2026 Agentic AI P
 - Implemented Stack-based Solution
 - Practiced Async and Non-Async Implementations
 
+# Day 7
+
+## Topics Covered
+
+- Python 2 vs Python 3
+- Python Virtual Environments (venv)
+- PIP Package Manager
+- UV Package Manager
+- LangChain Framework
+- Ollama Local LLMs
+  
 ## Repository Structure
 
 ```text
@@ -115,7 +126,30 @@ Codenoids-2026-Agentic-AI/
 ├── Day 6/
 │   ├── ValidParentheses.py
 │   └── RottingOranges.py
+│
+├── Day 7/
+│   ├── Python2_vs_Python3.md
+│   ├── venv.md
+│   ├── pip.md
+│   ├── uv.md
+│   ├── langchain.md
+│   ├── app.py
+│   ├── main.py
+│   ├── quiz.py
+│   └── summarizer.py
+│
 └── README.md
+
+## Technologies Used
+
+- Python
+- Asyncio
+- Data Structures & Algorithms
+- LangChain
+- Ollama
+- Llama 3.2
+- Git & GitHub
+- Ubuntu (WSL)
 
 ```
 ---
