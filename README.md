@@ -78,6 +78,24 @@ Welcome to my Industrial Training repository for the Codenoids 2026 Agentic AI P
 - UV Package Manager
 - LangChain Framework
 - Ollama Local LLMs
+
+### Day 8
+
+#### Topics Covered
+
+- Linked Lists
+- Two-Pointer Technique
+- Merging Sorted Data
+- Dummy Nodes in Linked Lists
+- Backtracking
+- Recursion
+
+#### Work Done 
+
+- Solved LeetCode #21: Merge Two Sorted Lists
+- Solved LeetCode #17: Letter Combinations of a Phone Number
+- Implemented Linked List Merging Algorithm
+- Implemented Backtracking-Based Solution
   
 ### Repository Structure
 
@@ -137,6 +155,10 @@ Codenoids-2026-Agentic-AI/
 │   ├── main.py
 │   ├── quiz.py
 │   └── summarizer.py
+│
+├── Day 8/
+│   ├── letter.py
+│   └── merge.py
 │
 └── README.md
 
