@@ -96,6 +96,67 @@ Welcome to my Industrial Training repository for the Codenoids 2026 Agentic AI P
 - Solved LeetCode #17: Letter Combinations of a Phone Number
 - Implemented Linked List Merging Algorithm
 - Implemented Backtracking-Based Solution
+
+### Day 9
+
+#### Topics Covered
+
+- ReactJS Fundamentals
+- Vite Project Setup
+- Tailwind CSS Integration
+- Component-Based Architecture
+- Multi-Page Website Development
+- Navigation and Routing
+- Responsive UI Design
+
+#### Work Done 
+
+- React Application Setup using Vite
+- Tailwind CSS Configuration
+- React Router Integration
+- Navigation Bar Component
+- Home Page Development
+- Agentic AI Page
+- Marketplace Page
+- Settings Page
+- Chat Interface Layout
+- Component-Based Folder Structure
+- Responsive Layout Design
+
+#### Technologies Used
+
+- ReactJS
+- JavaScript
+- Tailwind CSS
+- React Router DOM
+- HTML
+- CSS
+
+### Day 10
+
+#### Topics Covered
+- FastAPI Fundamentals
+- Uvicorn Fundamentals
+- Portfolio Page Design
+
+#### Implemented
+
+- FastAPI Installation and Setup
+- Uvicorn Installation and Setup
+- About Me Page Development
+- Professional Summary Section
+- Technical Skills Section
+- Education Section
+- Social Links Integration
+- Resume Download Button Placeholder
+
+#### Technologies Used
+
+- Python
+- FastAPI
+- Uvicorn
+- ReactJS
+- Tailwind CSS
   
 ### Repository Structure
 
@@ -160,6 +221,20 @@ Codenoids-2026-Agentic-AI/
 │   ├── letter.py
 │   └── merge.py
 │
+├── Day 9/
+│   ├── components
+│       └── Header.jsx
+│   ├── features
+│       ├── App.css
+│       ├── App.jsx
+│       ├── index.css
+│       └── main.jsx
+├── Day 10/
+│   ├── AboutMe.jsx
+│   ├── FastAPI.md
+│   ├── Uvicorn.md
+│   └── main.py
+│ 
 └── README.md
 
 ## Technologies Used
