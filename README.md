@@ -128,7 +128,6 @@ Welcome to my Industrial Training repository for the Codenoids 2026 Agentic AI P
 - ReactJS
 - JavaScript
 - Tailwind CSS
-- React Router DOM
 - HTML
 - CSS
 
@@ -248,6 +247,13 @@ Codenoids-2026-Agentic-AI/
 - Llama 3.2
 - Git & GitHub
 - Ubuntu (WSL)
+- ReactJS
+- JavaScript
+- Tailwind CSS
+- HTML
+- CSS
+- FastAPI
+- Uvicorn
 
 ```
 ---
