@@ -1,0 +1,69 @@
+# FastAPI
+
+FastAPI is a modern, fast (high-performance) web framework for building APIs with Python.
+
+## Features
+
+- Fast and high performance
+- Easy to learn and use
+- Automatic API documentation
+- Data validation using Pydantic
+- Async support
+- Type hints support
+
+## Installation
+
+```bash
+pip install fastapi uvicorn
+```
+
+## Simple Example
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def home():
+    return {"message": "Hello World"}
+```
+
+## Run the Application
+
+```bash
+uvicorn main:app --reload
+```
+
+Open your browser and visit:
+
+```
+http://127.0.0.1:8000
+```
+
+## API Documentation
+
+FastAPI automatically generates interactive API documentation:
+
+- Swagger UI: `http://127.0.0.1:8000/docs`
+- ReDoc: `http://127.0.0.1:8000/redoc`
+
+## Project Structure
+
+```text
+project/
+│
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+## Technologies Used
+
+- Python
+- FastAPI
+- Uvicorn
+
+## Author
+
+Tanisha Chaudhary
