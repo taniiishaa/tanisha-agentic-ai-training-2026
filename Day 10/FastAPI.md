@@ -64,6 +64,3 @@ project/
 - FastAPI
 - Uvicorn
 
-## Author
-
-Tanisha Chaudhary
