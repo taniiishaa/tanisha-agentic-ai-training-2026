@@ -265,6 +265,11 @@ Codenoids-2026-Agentic-AI/
 │   ├── Streamlit.md
 │   ├── main.py
 │   └── model.py
+│   ├── Github Assistant
+│       ├── app.py
+│       ├── model.py
+│       ├── tools.py
+│       └── Readme.md
 │
 └── README.md
 
