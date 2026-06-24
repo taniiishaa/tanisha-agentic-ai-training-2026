@@ -48,16 +48,6 @@ FastAPI automatically generates interactive API documentation:
 - Swagger UI: `http://127.0.0.1:8000/docs`
 - ReDoc: `http://127.0.0.1:8000/redoc`
 
-## Project Structure
-
-```text
-project/
-│
-├── main.py
-├── requirements.txt
-└── README.md
-```
-
 ## Technologies Used
 
 - Python
