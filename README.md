@@ -234,7 +234,14 @@ Codenoids-2026-Agentic-AI/
 │   ├── FastAPI.md
 │   ├── Uvicorn.md
 │   └── main.py
-│ 
+│
+├── Day 11/
+│   ├── Cookies.md
+│   ├── Decorators.md
+│   ├── Lighthouse.md
+│   ├── Local_Storage_vs_Session_Storage.md
+│   ├── StatusCode.md
+│   └── decorator.py 
 └── README.md
 
 ## Technologies Used
