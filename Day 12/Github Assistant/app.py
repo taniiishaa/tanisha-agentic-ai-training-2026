@@ -4,9 +4,9 @@ import time
 from model import create_agent
 from tools import all_github_tools
 
-st.title("👨‍💻 GitAge  Assistant")
+st.title("GitHub  Assistant")
 
-# Create a lookup dictionary for your 20 tools
+# Created a lookup dictionary for your 20 tools
 tools_map = {tool.name: tool for tool in all_github_tools}
 
 if "messages" not in st.session_state:
@@ -19,20 +19,15 @@ for msg in st.session_state.messages:
 async def run_agent_workflow(user_prompt):
     agent = create_agent()
     
-    # 1. Ask the model what to do
     ai_message = await agent.ainvoke(user_prompt)
     
-    # 2. Check if the model wants to call a tool
     if ai_message.tool_calls:
         tool_call = ai_message.tool_calls[0]
         tool_name = tool_call["name"]
         tool_args = tool_call["args"]
         
         if tool_name in tools_map:
-            # Run your async tool from tools.py dynamically!
             tool_result = await tools_map[tool_name].ainvoke(tool_args)
-            
-            # 3. Give the real data back to the model to get a final conversational answer
             final_prompt = (
                 f"User asked: {user_prompt}\n"
                 f"Tool '{tool_name}' executed with arguments {tool_args} and returned this real-time data:\n"
@@ -54,7 +49,6 @@ if user_prompt := st.chat_input("Type a question..."):
         full_response = ""
         
         try:
-            # Run the complete workflow securely using asyncio
             ai_text = asyncio.run(run_agent_workflow(user_prompt))
             
             if not ai_text or not ai_text.strip():
