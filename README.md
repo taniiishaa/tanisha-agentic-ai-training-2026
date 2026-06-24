@@ -174,17 +174,7 @@ Welcome to my Industrial Training repository for the Codenoids 2026 Agentic AI P
 - Compared Local Storage and Session Storage
 - Implemented Basic Python Decorators
 - Explored Function Wrapping using Decorators
-- Learned Lighthouse Metrics and Auditing Process
-- Understood Performance, Accessibility, SEO, and Best Practices Reports
-- Created Markdown Notes for All Topics
-
-#### Technologies Used
-
-- Python
-- Web Development Concepts
-- Browser Storage APIs
-- Google Lighthouse
-- Markdown
+- Learned Lighthouse Metrics 
 
 ```text
 Codenoids-2026-Agentic-AI/
