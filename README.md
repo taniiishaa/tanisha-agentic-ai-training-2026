@@ -174,7 +174,71 @@ Welcome to my Industrial Training repository for the Codenoids 2026 Agentic AI P
 - Compared Local Storage and Session Storage
 - Implemented Basic Python Decorators
 - Explored Function Wrapping using Decorators
-- Learned Lighthouse Metrics 
+- Learned Lighthouse Metrics
+
+### Day 12
+
+#### Topics Covered
+
+- Streamlit Fundamentals
+- Streamlit UI Development
+- Ollama Fundamentals
+- LangChain Integration
+- ChatOllama Model Configuration
+- Tool Calling in LLMs
+- Asynchronous Programming in Python
+- AsyncIO Fundamentals
+- HTTPX for Async API Requests
+- GitHub API Integration
+- Agentic AI Workflow
+- Modular Project Architecture
+
+#### Work Done
+
+- Installed and Configured Streamlit
+- Built Interactive Streamlit User Interface
+- Set Up Ollama for Local LLM Execution
+- Integrated LangChain with ChatOllama
+- Developed a GitHub Assistant Project
+- Created Modular Project Structure (`app.py`, `model.py`, `tools.py`)
+- Implemented 20 GitHub API Tools
+- Connected GitHub APIs using HTTPX
+- Developed Asynchronous API Request Handling
+- Implemented Tool Binding using LangChain
+- Built Agent Workflow for Tool Execution
+- Implemented Dynamic Tool Routing
+- Created LLM-to-Tool Communication Pipeline
+- Integrated Real-Time GitHub Data Fetching
+- Developed Response Generation Workflow
+- Tested End-to-End Assistant Functionality
+- Created Project Documentation
+
+#### Project Developed
+
+**GitHub Assistant (Agentic AI Project)**
+
+Features:
+- Natural Language GitHub Queries
+- Real-Time GitHub Data Retrieval
+- Automatic Tool Selection
+- Asynchronous API Calls
+- Local LLM Execution using Ollama
+- Streamlit-Based User Interface
+- LangChain Tool Calling
+- Modular and Scalable Architecture
+
+#### Technologies Used
+
+- Python
+- Streamlit
+- LangChain
+- Ollama
+- ChatOllama
+- HTTPX
+- AsyncIO
+- GitHub REST API
+- Markdown
+
 
 ```text
 Codenoids-2026-Agentic-AI/
@@ -290,6 +354,11 @@ Codenoids-2026-Agentic-AI/
 - CSS
 - FastAPI
 - Uvicorn
+- Streamlit
+- ChatOllama
+- HTTPX
+- GitHub REST API
+- Markdown
 
 ```
 ---
