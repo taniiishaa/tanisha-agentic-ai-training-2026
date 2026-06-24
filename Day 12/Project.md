@@ -307,59 +307,6 @@ Displayed to User
 
 ---
 
-# 📂 Recommended Project Structure
-
-```text
-CodeNoids-AI-Assistant/
-│
-├── my-app/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   │
-│   ├── package.json
-│   └── vite.config.js
-│
-├── my-backend/
-│   ├── main.py
-│   ├── model.py
-│   └── requirements.txt
-│
-└── README.md
-```
-
----
-
-# 🚀 Future Enhancements
-
-### AI Features
-
-* Conversation memory
-* Multi-model switching
-* Streaming responses
-* Context-aware chat
-* Document analysis
-
-### Frontend Features
-
-* Dark mode
-* Chat export
-* Voice input
-* Responsive mobile layout
-* User authentication
-
-### Backend Features
-
-* JWT authentication
-* Database integration
-* Rate limiting
-* Logging and monitoring
-* Docker deployment
-
----
-
 # 🧰 Technology Stack
 
 | Layer         | Technology   |
