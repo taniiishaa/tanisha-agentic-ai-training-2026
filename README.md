@@ -241,7 +241,14 @@ Codenoids-2026-Agentic-AI/
 │   ├── Lighthouse.md
 │   ├── Local_Storage_vs_Session_Storage.md
 │   ├── StatusCode.md
-│   └── decorator.py 
+│   └── decorator.py
+│
+├── Day 12/
+│   ├── Project.md
+│   ├── Streamlit.md
+│   ├── main.py
+│   └── model.py
+│
 └── README.md
 
 ## Technologies Used
