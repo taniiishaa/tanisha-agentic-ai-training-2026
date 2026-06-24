@@ -4,7 +4,6 @@ from model import agent
 
 app = FastAPI()
 
-# basic middleware so your browser allows react to read the data
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
