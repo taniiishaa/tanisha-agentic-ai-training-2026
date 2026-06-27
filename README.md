@@ -239,6 +239,37 @@ Features:
 - GitHub REST API
 - Markdown
 
+### Day 13
+
+#### Topics Covered
+
+* LangChain Agents
+* LangChain Tools
+* Tool Decorators (`@tool`)
+* Pydantic (`BaseModel` & `Field`)
+* `args_schema` for Tool Input Validation
+* Ollama Local LLM Integration
+* Agent Creation with `create_agent()`
+* HumanMessage and Message Passing
+* Agent Invocation using `invoke()`
+* Streamlit Integration
+* Tool Response Metadata
+* Error Handling in Tools
+
+#### Work Done
+
+* Built a simple AI Calculator Agent using LangChain and Streamlit.
+* Created a custom **Addition Tool** using the `@tool` decorator.
+* Defined structured tool inputs using **Pydantic** (`BaseModel` and `Field`).
+* Implemented `args_schema` for automatic input validation.
+* Connected the agent to a local **Qwen 2.5 (0.5B)** model through **Ollama**.
+* Configured the agent using `create_agent()` with a custom system prompt.
+* Passed user queries to the agent using `HumanMessage`.
+* Executed the agent with `agent.invoke()` and session configuration (`thread_id`).
+* Displayed the agent's final response in a Streamlit interface.
+* Inspected and displayed response metadata, including tool calls, message type, and message ID.
+* Added basic exception handling to improve tool reliability.
+* Organized the project into separate modules (`app.py`, `model.py`, and `tools.py`) following a clean project structure.
 
 ```text
 Codenoids-2026-Agentic-AI/
@@ -334,6 +365,17 @@ Codenoids-2026-Agentic-AI/
 │   ├── Streamlit.md
 │   ├── main.py
 │   └── model.py
+│
+├── Day 13/
+│   ├── tools
+│       ├── app.py
+│       ├── model.py
+│       └── tools.py
+│   ├── Parameters Used with LangChain.md
+│   ├── Prompt Engineering.md
+│   ├── decorators in python.md
+│   ├── tools in python.md
+│   └── wrapper.md
 │
 └── README.md
 
