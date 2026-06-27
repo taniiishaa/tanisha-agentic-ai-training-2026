@@ -7,7 +7,6 @@ class AddArgs(BaseModel):
 
 @tool(args_schema=AddArgs)
 def add(arg1: float, arg2: float) -> dict:
-    """Adds two numbers together."""
     try:
         total = arg1 + arg2
         return {"result": total}
