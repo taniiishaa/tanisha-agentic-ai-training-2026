@@ -271,6 +271,17 @@ Features:
 * Added basic exception handling to improve tool reliability.
 * Organized the project into separate modules (`app.py`, `model.py`, and `tools.py`) following a clean project structure.
 
+### Day 14
+
+#### Topics Covered
+
+- LangChain Middleware
+- Node-Style Middleware Hooks
+- Wrap-Style Middleware Hooks
+- Agent Execution Flow
+- Dynamic Model Selection
+- Tool Call Monitoring
+  
 ```text
 Codenoids-2026-Agentic-AI/
 │
@@ -376,6 +387,11 @@ Codenoids-2026-Agentic-AI/
 │   ├── decorators in python.md
 │   ├── tools in python.md
 │   └── wrapper.md
+│
+├── Day 14/
+│   ├── middleware.md
+│   ├── middleware1.py
+│   └── middleware2.py
 │
 └── README.md
 
