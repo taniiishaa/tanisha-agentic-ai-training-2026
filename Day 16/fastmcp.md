@@ -488,30 +488,6 @@ Return answer to user
 
 ---
 
-# Final Project Structure
-
-```text
-fastmcp_project/
-
-│
-├── server.py          # Starts the MCP server
-├── tools.py           # AI tools
-├── resources.py       # Static resources
-├── prompts.py         # Reusable prompts
-├── pyproject.toml
-└── README.md
-```
-
----
-
-# Summary
-
-| File           | Responsibility                      |
-| -------------- | ----------------------------------- |
-| `server.py`    | Creates and runs the FastMCP server |
-| `tools.py`     | Defines executable tools for the AI |
-| `resources.py` | Provides read-only information      |
-| `prompts.py`   | Stores reusable AI instructions     |
 
 FastMCP makes it easy to build MCP servers by allowing you to expose Python functions as tools, share information through resources, and define reusable prompts. It hides the complexity of the Model Context Protocol, enabling you to focus on building useful AI capabilities instead of implementing the protocol itself.
 
